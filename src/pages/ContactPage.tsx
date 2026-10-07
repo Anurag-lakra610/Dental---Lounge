@@ -104,7 +104,7 @@ export const ContactPage = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-stretch">
           
           {/* Left: Image with floating card */}
-          <div className="relative h-full min-h-[500px] lg:min-h-0">
+          <div className="relative h-full aspect-[4/5] lg:aspect-auto">
             {/* The Person Image */}
             <div className="rounded-none overflow-hidden w-full h-full relative z-0">
               <img 
@@ -184,6 +184,7 @@ export const ContactPage = () => {
     </div>
   );
 };
+
 
 
 

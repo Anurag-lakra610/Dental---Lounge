@@ -20,10 +20,10 @@ export const Testimonials = () => {
 
   return (
     <section className="py-16 md:py-24 lg:py-[100px] bg-[var(--color-background)] overflow-hidden">
-      <div className="w-full pl-6 lg:pl-[100px] pr-0">
+      <div className="w-full px-6 lg:pl-[100px] lg:pr-0">
         
         {/* Header */}
-        <div className="text-center mb-[40px] pr-6 lg:pr-[100px]">
+        <div className="text-center mb-[40px] lg:pr-[100px]">
           <h2 className="text-[36px] md:text-[48px] font-serif font-bold text-[var(--color-text-main)] mb-[30px] leading-tight">
             Inspiring Patient Experiences
           </h2>
@@ -175,7 +175,7 @@ export const Testimonials = () => {
           </div>
 
           {/* Custom Navigation Buttons */}
-          <div className="flex justify-center gap-4 mt-8 pr-6 lg:pr-[100px]">
+          <div className="flex justify-center gap-4 mt-8 lg:pr-[100px]">
             <button 
               onClick={() => swiperRef.current?.slidePrev()}
               className="w-12 h-12 rounded-full bg-white shadow-md border border-gray-100 flex items-center justify-center text-[var(--color-text-main)] hover:bg-[var(--color-secondary)] hover:text-white hover:border-[var(--color-secondary)] transition-all"
@@ -197,6 +197,7 @@ export const Testimonials = () => {
     </section>
   );
 };
+
 
 
 
