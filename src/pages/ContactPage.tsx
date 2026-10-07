@@ -101,16 +101,16 @@ export const ContactPage = () => {
 
       {/* 3. Form & Image Split Section */}
       <section className="py-24 max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-stretch">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           
           {/* Left: Image with floating card */}
-          <div className="relative h-full min-h-[500px] lg:min-h-0">
+          <div className="relative">
             {/* The Person Image */}
-            <div className="rounded-none overflow-hidden w-full h-full relative z-0 bg-[var(--color-primary)]/10" style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%232563eb' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' opacity='0.12'%3E%3Cpath d='M35 30 C28 30 25 35 25 40 C25 47 31 52 31 59 C31 62 35 62 35 59 C35 52 39 52 39 59 C39 62 43 62 43 59 C43 52 49 47 49 40 C49 35 46 30 35 30 Z'/%3E%3Cpath d='M 85 85 L 85 93 M 81 89 L 89 89' /%3E%3Cpath d='M 15 85 Q 20 85 20 80 Q 20 85 25 85 Q 20 85 20 90 Q 20 85 15 85 Z' /%3E%3Cpath d='M 95 20 Q 98 20 98 17 Q 98 20 101 20 Q 98 20 98 23 Q 98 20 95 20 Z' /%3E%3C/g%3E%3C/svg%3E")`, backgroundSize: "120px 120px" }}>
+            <div className="rounded-none overflow-hidden aspect-[3/4] w-full max-w-md mx-auto lg:mr-auto lg:ml-0 relative z-0">
               <img 
-                src="/images/receptionist_test.png" 
+                src="/images/receptionist2.jpg" 
                 alt="Friendly Receptionist" 
-                className="w-full h-full object-cover object-bottom"
+                className="w-full h-full object-cover"
               />
             </div>
             
@@ -184,6 +184,7 @@ export const ContactPage = () => {
     </div>
   );
 };
+
 
 
 
