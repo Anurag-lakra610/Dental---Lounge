@@ -12,14 +12,14 @@ export const Hero = () => {
           alt="Premium Dental Care Background" 
           className="w-full h-full object-cover object-center"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[var(--color-primary)]/85 via-[var(--color-primary)]/60 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-[var(--color-primary)]/90 via-[var(--color-primary)]/50 to-[var(--color-primary)]/90 lg:bg-gradient-to-r lg:from-[var(--color-primary)]/85 lg:via-[var(--color-primary)]/60 lg:to-transparent"></div>
         {/* Additional subtle dark overlay for text readability on mobile */}
         <div className="absolute inset-0 bg-black/10 md:hidden"></div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Left Side Content */}
-        <div className="flex flex-col items-start text-white">
+        <div className="flex flex-col items-center lg:items-start text-center lg:text-left text-white mt-8 lg:mt-0">
           <div className="inline-flex items-center space-x-2 bg-white/10 px-4 py-2 rounded-full text-[16px] font-bold uppercase tracking-wider mb-6 backdrop-blur-md border border-white/20">
             <span>Dental & Aesthetic Care</span>
           </div>
@@ -33,7 +33,7 @@ export const Hero = () => {
             With our expertise in dental and aesthetic treatments, we provide personalized care designed around your comfort and confidence.
           </p>
           
-          <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
+          <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 w-full sm:w-auto">
             <a href="#appointment" className="w-full sm:w-auto bg-white text-black px-8 py-4 rounded-full font-bold text-lg hover:bg-[var(--color-secondary)] hover:text-white hover:-translate-y-1 transition-all shadow-xl flex items-center justify-center gap-2 group">
               Book an Appointment
               <ArrowRight size={20} />
@@ -81,6 +81,7 @@ export const Hero = () => {
     </section>
   );
 };
+
 
 
 
