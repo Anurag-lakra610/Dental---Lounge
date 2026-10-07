@@ -19,12 +19,12 @@ export const Testimonials = () => {
   ];
 
   return (
-    <section className="py-[100px] bg-[var(--color-background)] overflow-hidden">
+    <section className="py-16 md:py-24 lg:py-[100px] bg-[var(--color-background)] overflow-hidden">
       <div className="w-full pl-6 lg:pl-[100px] pr-0">
         
         {/* Header */}
         <div className="text-center mb-[40px] pr-6 lg:pr-[100px]">
-          <h2 className="text-[48px] font-serif font-bold text-[var(--color-text-main)] mb-[30px] leading-tight">
+          <h2 className="text-[36px] md:text-[48px] font-serif font-bold text-[var(--color-text-main)] mb-[30px] leading-tight">
             Inspiring Patient Experiences
           </h2>
           <p className="text-[var(--color-text-main)]/70 text-lg">
@@ -197,5 +197,6 @@ export const Testimonials = () => {
     </section>
   );
 };
+
 
 

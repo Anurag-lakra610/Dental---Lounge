@@ -25,7 +25,7 @@ export const ContactPage = () => {
           <div className="absolute inset-0 bg-[#0B1528]/70"></div>
         </div>
         <div className="relative z-10 text-center px-6 text-white mt-20">
-          <h1 className="text-[60px] md:text-[80px] font-serif font-bold leading-none">
+          <h1 className="text-[40px] md:text-[60px] md:text-[48px] md:text-[80px] font-serif font-bold leading-none">
             Contact
           </h1>
         </div>
@@ -37,7 +37,7 @@ export const ContactPage = () => {
           <span className="text-[var(--color-secondary)] font-bold tracking-widest uppercase text-sm mb-4 block">
             • Contact Info •
           </span>
-          <h2 className="text-[40px] md:text-[48px] font-serif font-bold text-[var(--color-text-main)] mb-6">
+          <h2 className="text-[40px] md:text-[36px] md:text-[48px] font-serif font-bold text-[var(--color-text-main)] mb-6">
             Contact & Join Together
           </h2>
           <p className="text-[var(--color-text-main)]/60 max-w-2xl mx-auto">
@@ -115,7 +115,7 @@ export const ContactPage = () => {
             </div>
             
             {/* Floating Live Chat / WhatsApp Card */}
-            <div className="absolute bottom-10 -left-4 md:-left-8 lg:-left-12 bg-[var(--color-primary)] text-white rounded-none p-8 md:p-10 shadow-2xl z-10 w-[280px] md:w-[320px]">
+            <div className="absolute -bottom-10 left-1/2 -translate-x-1/2 md:bottom-10 md:left-auto md:-translate-x-0 md:-left-8 lg:-left-12 bg-[var(--color-primary)] text-white rounded-none p-6 md:p-10 shadow-2xl z-10 w-[90%] max-w-[280px] md:max-w-none md:w-[320px]">
               <div className="w-16 h-16 rounded-full bg-white/20 flex items-center justify-center mb-6">
                 <MessageCircle size={32} />
               </div>
@@ -139,7 +139,7 @@ export const ContactPage = () => {
             <span className="text-[var(--color-secondary)] font-bold tracking-widest uppercase text-sm mb-4 block">
               • Contact Us •
             </span>
-            <h2 className="text-[40px] md:text-[48px] font-serif font-bold text-[var(--color-text-main)] mb-10 leading-tight">
+            <h2 className="text-[40px] md:text-[36px] md:text-[48px] font-serif font-bold text-[var(--color-text-main)] mb-10 leading-tight">
               Reach <span className="text-[var(--color-primary)]">& Get In Touch</span><br/>With Us !
             </h2>
             
@@ -184,5 +184,7 @@ export const ContactPage = () => {
     </div>
   );
 };
+
+
 
 

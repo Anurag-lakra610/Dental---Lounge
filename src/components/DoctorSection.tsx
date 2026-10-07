@@ -3,7 +3,7 @@ import { clinicConfig } from '../data/clinicConfig';
 
 export const DoctorSection = () => {
   return (
-    <section className="py-[100px] bg-[var(--color-background)]">
+    <section className="py-16 md:py-24 lg:py-[100px] bg-[var(--color-background)]">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="bg-white rounded-[2.5rem] overflow-hidden shadow-xl shadow-[var(--color-primary)]/5">
           <div className="flex flex-col lg:flex-row">
@@ -16,7 +16,7 @@ export const DoctorSection = () => {
             </div>
             
             <div className="lg:w-3/5 p-10 lg:p-16 flex flex-col justify-center">
-              <h2 className="text-[48px] font-serif font-semibold text-[var(--color-primary)] mb-[30px]">Meet Your Dental Care Team</h2>
+              <h2 className="text-[36px] md:text-[48px] font-serif font-semibold text-[var(--color-primary)] mb-[30px]">Meet Your Dental Care Team</h2>
               
               <div className="space-y-4">
                 <div>
@@ -36,6 +36,7 @@ export const DoctorSection = () => {
     </section>
   );
 };
+
 
 
 

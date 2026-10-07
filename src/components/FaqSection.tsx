@@ -35,7 +35,7 @@ export const FaqSection = () => {
     <section className="py-24 bg-[var(--color-background)]">
       <div className="max-w-4xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-[48px] font-serif font-bold text-[var(--color-text-main)] mb-4">
+          <h2 className="text-[36px] md:text-[48px] font-serif font-bold text-[var(--color-text-main)] mb-4">
             Frequently Asked Questions
           </h2>
           <p className="text-lg text-[var(--color-text-main)]/70 max-w-2xl mx-auto">
@@ -77,5 +77,6 @@ export const FaqSection = () => {
     </section>
   );
 };
+
 
 

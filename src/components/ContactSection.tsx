@@ -8,7 +8,7 @@ export const ContactSection = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           <div>
-            <h2 className="text-[48px] font-serif font-semibold text-[var(--color-primary)] mb-6">Visit Dental Lounge</h2>
+            <h2 className="text-[36px] md:text-[48px] font-serif font-semibold text-[var(--color-primary)] mb-6">Visit Dental Lounge</h2>
             <p className="text-lg text-[var(--color-text-main)]/70 mb-12">
               Located conveniently in Sangrur, we're ready to provide you with expert dental and aesthetic care.
             </p>
@@ -84,5 +84,6 @@ export const ContactSection = () => {
     </section>
   );
 };
+
 
 

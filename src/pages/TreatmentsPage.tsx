@@ -35,7 +35,7 @@ export const TreatmentsPage = () => {
         </div>
         <div className="relative z-10 text-center px-6 text-white max-w-4xl mx-auto mt-20">
           <span className="text-sm md:text-base tracking-[0.2em] uppercase mb-4 block opacity-90">Our Services</span>
-          <h1 className="text-[60px] md:text-[80px] font-serif font-bold leading-none mb-6">
+          <h1 className="text-[40px] md:text-[60px] md:text-[48px] md:text-[80px] font-serif font-bold leading-none mb-6">
             Exceptional Care.
           </h1>
           <p className="text-xl md:text-2xl font-light opacity-90">
@@ -72,7 +72,7 @@ export const TreatmentsPage = () => {
                     <div className="h-px bg-gray-200 flex-grow max-w-[100px]"></div>
                   </div>
                   
-                  <h2 className="text-[48px] font-serif font-bold text-[var(--color-text-main)] mb-6 leading-[1.1]">
+                  <h2 className="text-[36px] md:text-[48px] font-serif font-bold text-[var(--color-text-main)] mb-6 leading-[1.1]">
                     {treatment.name}
                   </h2>
                   
@@ -94,4 +94,5 @@ export const TreatmentsPage = () => {
     </div>
   );
 };
+
 

@@ -21,7 +21,7 @@ export const WhyDentalLounge = () => {
   ];
 
   return (
-    <section id="about" className="relative py-[100px] overflow-hidden text-white">
+    <section id="about" className="relative py-16 md:py-24 lg:py-[100px] overflow-hidden text-white">
       {/* Full-width Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
@@ -37,7 +37,7 @@ export const WhyDentalLounge = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
-            <h2 className="text-[48px] font-serif font-bold mb-[30px] leading-tight">
+            <h2 className="text-[36px] md:text-[48px] font-serif font-bold mb-[30px] leading-tight">
               Feel Good.<br />
               <span className="text-[var(--color-accent)]">Look Good.</span>
             </h2>
@@ -64,6 +64,7 @@ export const WhyDentalLounge = () => {
     </section>
   );
 };
+
 
 
 

@@ -4,7 +4,7 @@ import { clinicConfig } from '../data/clinicConfig';
 
 export const Hero = () => {
   return (
-    <section id="home" className="relative min-h-[90vh] flex items-center pt-32 pb-20 px-6 lg:px-8 overflow-hidden">
+    <section id="home" className="relative min-h-[90vh] flex items-center pt-28 pb-16 md:pt-32 md:pb-20 px-6 lg:px-8 overflow-hidden">
       {/* Full-width Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
@@ -24,7 +24,7 @@ export const Hero = () => {
             <span>Dental & Aesthetic Care</span>
           </div>
           
-          <h1 className="font-serif text-[60px] font-bold leading-[1.15] mb-[30px] tracking-tight">
+          <h1 className="font-serif text-[40px] md:text-[60px] font-bold leading-[1.15] mb-[30px] tracking-tight">
             Enhancing Lives<br />
             <span>With Brighter Smiles.</span>
           </h1>
@@ -81,6 +81,7 @@ export const Hero = () => {
     </section>
   );
 };
+
 
 
 

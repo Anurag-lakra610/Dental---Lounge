@@ -19,7 +19,7 @@ export const About = () => {
         </div>
         <div className="relative z-10 text-center px-6 text-white max-w-4xl mx-auto mt-20">
           <span className="text-sm md:text-base tracking-[0.2em] uppercase mb-4 block opacity-90">About Us</span>
-          <h1 className="text-[60px] md:text-[80px] font-serif font-bold leading-none mb-6">
+          <h1 className="text-[40px] md:text-[60px] md:text-[48px] md:text-[80px] font-serif font-bold leading-none mb-6">
             Elevating Dental Care.
           </h1>
           <p className="text-xl md:text-2xl font-light opacity-90">
@@ -29,10 +29,10 @@ export const About = () => {
       </section>
 
       {/* 2. Typographic Intro (No Cards, Pure Text) */}
-      <section className="py-32 px-6 lg:px-[100px] max-w-[1600px] mx-auto">
+      <section className="py-16 md:py-32 px-6 lg:px-[100px] max-w-[1600px] mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
           <div className="lg:col-span-5">
-            <h2 className="text-[48px] md:text-[56px] font-serif font-bold text-[var(--color-text-main)] leading-[1.1]">
+            <h2 className="text-[36px] md:text-[48px] md:text-[36px] md:text-[56px] font-serif font-bold text-[var(--color-text-main)] leading-[1.1]">
               A new standard in aesthetic and functional dentistry.
             </h2>
           </div>
@@ -64,7 +64,7 @@ export const About = () => {
             <span className="text-[var(--color-primary)] font-bold tracking-widest uppercase text-sm mb-4">
               Lead Specialist
             </span>
-            <h2 className="text-[48px] font-serif font-bold text-[var(--color-text-main)] mb-2">
+            <h2 className="text-[36px] md:text-[48px] font-serif font-bold text-[var(--color-text-main)] mb-2">
               Meet The Doctor
             </h2>
             <p className="text-xl text-[var(--color-text-main)]/60 mb-10 font-serif italic">
@@ -88,4 +88,5 @@ export const About = () => {
     </div>
   );
 };
+
 

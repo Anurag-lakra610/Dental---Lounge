@@ -34,7 +34,7 @@ export const AboutIntro = () => {
         {/* Top Split Section */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center mb-20">
           <div className="lg:col-span-7">
-            <h2 className="text-[48px] font-serif leading-tight text-[var(--color-text-main)] mb-10">
+            <h2 className="text-[36px] md:text-[48px] font-serif leading-tight text-[var(--color-text-main)] mb-10">
               At <span className="italic text-[var(--color-primary)]">Dental Lounge</span> we believe that every smile tells a story. For over <span className="font-bold">12+ years</span>, our dedicated team of dental professionals has been providing compassionate <span className="italic text-[var(--color-secondary)]">care with the latest technology and techniques.</span>
             </h2>
             
@@ -80,5 +80,6 @@ export const AboutIntro = () => {
     </section>
   );
 };
+
 
 

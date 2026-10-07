@@ -45,14 +45,14 @@ export const AppointmentSection = () => {
   };
 
   return (
-    <section id="appointment" className="py-[100px] bg-[var(--color-background)]">
+    <section id="appointment" className="py-16 md:py-24 lg:py-[100px] bg-[var(--color-background)]">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         
         <div className="bg-white rounded-3xl overflow-hidden shadow-xl flex flex-col lg:flex-row border border-gray-100">
           
           {/* Left Side: FAQs */}
           <div className="bg-gray-50 p-10 lg:p-12 w-full lg:w-1/2 flex flex-col border-r border-gray-100">
-            <h2 className="text-[48px] font-serif font-bold text-[var(--color-text-main)] mb-[30px] leading-tight">
+            <h2 className="text-[36px] md:text-[48px] font-serif font-bold text-[var(--color-text-main)] mb-[30px] leading-tight">
               Questions?<br/>Let's talk.
             </h2>
             <p className="text-[var(--color-text-main)]/70">
@@ -105,4 +105,5 @@ export const AppointmentSection = () => {
     </section>
   );
 };
+
 

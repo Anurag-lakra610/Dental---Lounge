@@ -19,7 +19,7 @@ export const Treatments = () => {
   return (
     <section 
       id="treatments" 
-      className="py-[100px] relative bg-[var(--color-background)]"
+      className="py-16 md:py-24 lg:py-[100px] relative bg-[var(--color-background)]"
       style={{ backgroundImage: `url("${dentalPattern}")`, backgroundSize: '120px' }}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
@@ -29,7 +29,7 @@ export const Treatments = () => {
           <p className="text-[var(--color-secondary)] text-xs font-bold uppercase tracking-widest mb-3">
             What We Provide
           </p>
-          <h2 className="text-[48px] font-serif font-bold text-[var(--color-text-main)] mb-[30px]">
+          <h2 className="text-[36px] md:text-[48px] font-serif font-bold text-[var(--color-text-main)] mb-[30px]">
             Our Dental Services
           </h2>
           <p className="text-[var(--color-text-main)]/60 text-sm">
@@ -67,6 +67,7 @@ export const Treatments = () => {
     </section>
   );
 };
+
 
 
 
