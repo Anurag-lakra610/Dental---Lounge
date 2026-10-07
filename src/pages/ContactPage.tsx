@@ -101,14 +101,14 @@ export const ContactPage = () => {
 
       {/* 3. Form & Image Split Section */}
       <section className="py-24 max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-stretch">
           
           {/* Left: Image with floating card */}
-          <div className="relative">
+          <div className="relative h-full min-h-[500px] lg:min-h-0">
             {/* The Person Image */}
-            <div className="rounded-none overflow-hidden aspect-[3/4] w-full max-w-md mx-auto lg:mr-auto lg:ml-0 relative z-0">
+            <div className="rounded-none overflow-hidden w-full h-full relative z-0">
               <img 
-                src="https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=1500&auto=format&fit=crop" 
+                src="/images/receptionist2.jpg" 
                 alt="Friendly Receptionist" 
                 className="w-full h-full object-cover"
               />
@@ -184,6 +184,7 @@ export const ContactPage = () => {
     </div>
   );
 };
+
 
 
 
