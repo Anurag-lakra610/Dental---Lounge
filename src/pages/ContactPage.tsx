@@ -106,11 +106,11 @@ export const ContactPage = () => {
           {/* Left: Image with floating card */}
           <div className="relative h-full min-h-[500px] lg:min-h-0">
             {/* The Person Image */}
-            <div className="rounded-none overflow-hidden w-full h-full relative z-0">
+            <div className="rounded-none overflow-hidden w-full h-full relative z-0 bg-[var(--color-primary)]/10" style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%232563eb' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' opacity='0.12'%3E%3Cpath d='M35 30 C28 30 25 35 25 40 C25 47 31 52 31 59 C31 62 35 62 35 59 C35 52 39 52 39 59 C39 62 43 62 43 59 C43 52 49 47 49 40 C49 35 46 30 35 30 Z'/%3E%3Cpath d='M 85 85 L 85 93 M 81 89 L 89 89' /%3E%3Cpath d='M 15 85 Q 20 85 20 80 Q 20 85 25 85 Q 20 85 20 90 Q 20 85 15 85 Z' /%3E%3Cpath d='M 95 20 Q 98 20 98 17 Q 98 20 101 20 Q 98 20 98 23 Q 98 20 95 20 Z' /%3E%3C/g%3E%3C/svg%3E")`, backgroundSize: "120px 120px" }}>
               <img 
-                src="/images/receptionist2.jpg" 
+                src="/images/receptionist_test.png" 
                 alt="Friendly Receptionist" 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-bottom"
               />
             </div>
             
@@ -135,13 +135,13 @@ export const ContactPage = () => {
           </div>
 
           {/* Right: The Form Component */}
-          <div>
+          <div><div className="text-center lg:text-left">
             <span className="text-[var(--color-secondary)] font-bold tracking-widest uppercase text-sm mb-4 block">
               • Contact Us •
             </span>
             <h2 className="text-[40px] md:text-[36px] md:text-[48px] font-serif font-bold text-[var(--color-text-main)] mb-10 leading-tight">
               Reach <span className="text-[var(--color-primary)]">& Get In Touch</span><br/>With Us !
-            </h2>
+            </h2></div>
             
             {/* Re-using the exact form design the user requested */}
             <AppointmentForm />
@@ -184,6 +184,10 @@ export const ContactPage = () => {
     </div>
   );
 };
+
+
+
+
 
 
 
