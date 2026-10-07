@@ -43,7 +43,7 @@ export const Navbar = () => {
         </div>
 
         {/* Desktop Nav */}
-        <div className="hidden md:flex items-center space-x-8">
+        <div className="hidden lg:flex items-center space-x-8">
           {navLinks.map((link) => (
             <Link 
               key={link.name} 
@@ -55,7 +55,7 @@ export const Navbar = () => {
           ))}
         </div>
 
-        <div className="hidden md:flex items-center space-x-6">
+        <div className="hidden lg:flex items-center space-x-6">
           <a 
             href={`https://wa.me/${clinicConfig.contact.whatsappNumber}`} 
             target="_blank" 
@@ -73,7 +73,7 @@ export const Navbar = () => {
         </div>
 
         {/* Mobile menu button */}
-        <div className="md:hidden flex items-center">
+        <div className="lg:hidden flex items-center">
           <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className={`p-2 transition-colors ${logoColor}`}>
             {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -82,7 +82,7 @@ export const Navbar = () => {
 
       {/* Mobile Nav */}
       {mobileMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 right-0 bg-white shadow-lg border-t border-gray-100 py-4 px-6 flex flex-col space-y-4">
+        <div className="lg:hidden absolute top-full left-0 right-0 bg-white shadow-lg border-t border-gray-100 py-4 px-6 flex flex-col space-y-4">
           {navLinks.map((link) => (
              <Link 
                key={link.name} 
@@ -106,6 +106,7 @@ export const Navbar = () => {
     </nav>
   );
 };
+
 
 
 
