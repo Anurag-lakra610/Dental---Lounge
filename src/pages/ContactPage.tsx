@@ -115,7 +115,7 @@ export const ContactPage = () => {
             </div>
             
             {/* Floating Live Chat / WhatsApp Card */}
-            <div className="absolute -bottom-10 left-1/2 -translate-x-1/2 md:bottom-10 md:left-auto md:-translate-x-0 md:-left-8 lg:-left-12 bg-[var(--color-primary)] text-white rounded-none p-6 md:p-10 shadow-2xl z-10 w-[90%] max-w-[280px] md:max-w-none md:w-[320px]">
+            <div className="hidden md:block absolute -bottom-10 left-1/2 -translate-x-1/2 md:bottom-10 md:left-auto md:-translate-x-0 md:-left-8 lg:-left-12 bg-[var(--color-primary)] text-white rounded-none p-6 md:p-10 shadow-2xl z-10 w-[90%] max-w-[280px] md:max-w-none md:w-[320px]">
               <div className="w-16 h-16 rounded-full bg-white/20 flex items-center justify-center mb-6">
                 <MessageCircle size={32} />
               </div>
@@ -184,6 +184,7 @@ export const ContactPage = () => {
     </div>
   );
 };
+
 
 
 
