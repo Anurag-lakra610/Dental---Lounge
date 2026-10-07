@@ -40,10 +40,10 @@ export const AboutIntro = () => {
             
             <Link 
               to="/about" 
-              className="inline-flex items-center gap-3 bg-white text-black border border-gray-200 px-8 py-4 rounded-full font-bold text-lg hover:bg-[var(--color-secondary)] hover:text-white transition-all shadow-md group"
+              className="inline-flex items-center gap-3 bg-white text-[var(--color-primary)] border border-gray-200 px-8 py-4 rounded-full font-bold text-lg hover:bg-[var(--color-secondary)] hover:text-white transition-all shadow-md group"
             >
               More About Us
-              <span className="bg-black/5 group-hover:bg-white/20 p-1.5 rounded-full transition-colors">
+              <span className="bg-[var(--color-primary)]/10 group-hover:bg-white/20 p-1.5 rounded-full transition-colors">
                 <ArrowRight size={18} />
               </span>
             </Link>
@@ -80,6 +80,7 @@ export const AboutIntro = () => {
     </section>
   );
 };
+
 
 
 

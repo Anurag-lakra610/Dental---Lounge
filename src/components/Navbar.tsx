@@ -66,7 +66,7 @@ export const Navbar = () => {
           </a>
           <Link 
             to="/contact" 
-            className={`px-6 py-2.5 rounded-full font-bold transition-all shadow-sm ${(isScrolled || isInnerPage) ? 'bg-black text-white hover:bg-[var(--color-secondary)] hover:text-white' : 'bg-white text-black hover:bg-[var(--color-secondary)] hover:text-white'}`}
+            className={`px-6 py-2.5 rounded-full font-bold transition-all shadow-sm ${(isScrolled || isInnerPage) ? 'bg-[var(--color-primary)] text-white hover:bg-[var(--color-secondary)] hover:text-white' : 'bg-white text-[var(--color-primary)] hover:bg-[var(--color-secondary)] hover:text-white'}`}
           >
             Book Appointment
           </Link>
@@ -94,10 +94,10 @@ export const Navbar = () => {
              </Link>
           ))}
           <div className="flex flex-col space-y-3 pt-2">
-             <a href={`https://wa.me/${clinicConfig.contact.whatsappNumber}`} target="_blank" rel="noreferrer" className="text-center bg-white border border-gray-200 text-black px-5 py-3 rounded-full font-bold shadow-sm hover:bg-[var(--color-secondary)] hover:text-white transition-all">
+             <a href={`https://wa.me/${clinicConfig.contact.whatsappNumber}`} target="_blank" rel="noreferrer" className="text-center bg-white border border-[var(--color-primary)] text-[var(--color-primary)] px-5 py-3 rounded-full font-bold shadow-sm hover:bg-[var(--color-secondary)] hover:text-white transition-all">
                WhatsApp Us
              </a>
-             <Link to="/contact" onClick={() => setMobileMenuOpen(false)} className="text-center bg-black text-white px-5 py-3 rounded-full font-medium">
+             <Link to="/contact" onClick={() => setMobileMenuOpen(false)} className="text-center bg-[var(--color-primary)] text-white px-5 py-3 hover:bg-[var(--color-secondary)] transition-colors rounded-full font-medium">
                Book Appointment
              </Link>
           </div>
@@ -106,6 +106,7 @@ export const Navbar = () => {
     </nav>
   );
 };
+
 
 
 

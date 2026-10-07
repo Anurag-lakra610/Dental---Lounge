@@ -34,12 +34,12 @@ export const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 w-full sm:w-auto">
-            <a href="#appointment" className="w-full sm:w-auto bg-white text-black px-8 py-4 rounded-full font-bold text-lg hover:bg-[var(--color-secondary)] hover:text-white hover:-translate-y-1 transition-all shadow-xl flex items-center justify-center gap-2 group">
+            <a href="#appointment" className="w-full sm:w-auto bg-white text-[var(--color-primary)] px-8 py-4 rounded-full font-bold text-lg hover:bg-[var(--color-secondary)] hover:text-white hover:-translate-y-1 transition-all shadow-xl flex items-center justify-center gap-2 group">
               Book an Appointment
               <ArrowRight size={20} />
             </a>
             
-            <a href={`https://wa.me/${clinicConfig.contact.whatsappNumber}`} target="_blank" rel="noreferrer" className="w-full sm:w-auto bg-white text-black px-8 py-4 rounded-full font-bold text-lg hover:bg-[var(--color-secondary)] hover:text-white hover:-translate-y-1 transition-all shadow-xl flex items-center justify-center gap-2 group">
+            <a href={`https://wa.me/${clinicConfig.contact.whatsappNumber}`} target="_blank" rel="noreferrer" className="w-full sm:w-auto bg-white text-[var(--color-primary)] px-8 py-4 rounded-full font-bold text-lg hover:bg-[var(--color-secondary)] hover:text-white hover:-translate-y-1 transition-all shadow-xl flex items-center justify-center gap-2 group">
               WhatsApp Us
             </a>
           </div>
@@ -81,6 +81,7 @@ export const Hero = () => {
     </section>
   );
 };
+
 
 
 

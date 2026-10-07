@@ -40,13 +40,10 @@ export const Footer = () => {
             <p className="text-white/80 text-sm leading-relaxed max-w-md mb-8">
               With our expertise in dental & aesthetic care, we are dedicated to providing premium treatments in a comfortable and luxurious environment.
             </p>
-            <a 
-              href="#appointment" 
+            <Link to="/contact" 
               className="inline-flex items-center gap-2 bg-white text-[var(--color-primary)] px-6 py-3 rounded-full font-bold text-sm hover:bg-[var(--color-secondary)] hover:text-white transition-all shadow-md group"
             >
-              Book an Appointment
-              <ChevronRight size={16} />
-            </a>
+              Book an Appointment<ChevronRight size={16} /></Link>
           </div>
 
           {/* Quick Links Column */}
@@ -139,4 +136,5 @@ export const Footer = () => {
     </footer>
   );
 };
+
 
